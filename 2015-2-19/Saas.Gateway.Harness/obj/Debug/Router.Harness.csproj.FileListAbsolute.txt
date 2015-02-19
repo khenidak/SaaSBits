@@ -1,0 +1,16 @@
+c:\code\Router.Harness\Router.Harness\bin\Debug\Router.Harness.exe
+c:\code\Router.Harness\Router.Harness\bin\Debug\Router.Harness.pdb
+c:\code\Router.Harness\Router.Harness\bin\Debug\System.Net.Http.Formatting.dll
+c:\code\Router.Harness\Router.Harness\bin\Debug\Newtonsoft.Json.dll
+c:\code\Router.Harness\Router.Harness\bin\Debug\System.Net.Http.Formatting.xml
+c:\code\Router.Harness\Router.Harness\obj\Debug\Router.Harness.csprojResolveAssemblyReference.cache
+c:\code\Router.Harness\Router.Harness\obj\Debug\Router.Harness.exe
+c:\code\Router.Harness\Router.Harness\obj\Debug\Router.Harness.pdb
+c:\code\SaaS\Saas.Gateway.Harness\bin\Debug\Router.Harness.exe
+c:\code\SaaS\Saas.Gateway.Harness\bin\Debug\Router.Harness.pdb
+c:\code\SaaS\Saas.Gateway.Harness\bin\Debug\System.Net.Http.Formatting.dll
+c:\code\SaaS\Saas.Gateway.Harness\bin\Debug\Newtonsoft.Json.dll
+c:\code\SaaS\Saas.Gateway.Harness\bin\Debug\System.Net.Http.Formatting.xml
+c:\code\SaaS\Saas.Gateway.Harness\obj\Debug\Router.Harness.exe
+c:\code\SaaS\Saas.Gateway.Harness\obj\Debug\Router.Harness.pdb
+c:\code\SaaS\Saas.Gateway.Harness\obj\Debug\Router.Harness.csprojResolveAssemblyReference.cache

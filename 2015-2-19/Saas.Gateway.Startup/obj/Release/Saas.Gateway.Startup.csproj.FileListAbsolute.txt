@@ -1,0 +1,14 @@
+c:\code\SaaS\Saas.Gateway.Startup\bin\Release\Scripts\AppHost.proxy.xml
+c:\code\SaaS\Saas.Gateway.Startup\bin\Release\Scripts\AppHost.Rewrite.GlobalRules.xml
+c:\code\SaaS\Saas.Gateway.Startup\bin\Release\Scripts\AppHost.Rewrite.outboundRules.xml
+c:\code\SaaS\Saas.Gateway.Startup\bin\Release\Scripts\AppHost.Rewrite.Providers.xml
+c:\code\SaaS\Saas.Gateway.Startup\bin\Release\Scripts\3.GacAssemblies.cmd
+c:\code\SaaS\Saas.Gateway.Startup\bin\Release\Scripts\10.StartIIS.cmd
+c:\code\SaaS\Saas.Gateway.Startup\bin\Release\Scripts\4.ConfigIIS.cmd
+c:\code\SaaS\Saas.Gateway.Startup\bin\Release\Scripts\2.InstallARR.cmd
+c:\code\SaaS\Saas.Gateway.Startup\bin\Release\Scripts\1.ShutdownIIS.cmd
+c:\code\SaaS\Saas.Gateway.Startup\bin\Release\Saas.Gateway.Startup.dll
+c:\code\SaaS\Saas.Gateway.Startup\bin\Release\Saas.Gateway.Startup.pdb
+c:\code\SaaS\Saas.Gateway.Startup\obj\Release\Saas.Gateway.Startup.csprojResolveAssemblyReference.cache
+c:\code\SaaS\Saas.Gateway.Startup\obj\Release\Saas.Gateway.Startup.dll
+c:\code\SaaS\Saas.Gateway.Startup\obj\Release\Saas.Gateway.Startup.pdb

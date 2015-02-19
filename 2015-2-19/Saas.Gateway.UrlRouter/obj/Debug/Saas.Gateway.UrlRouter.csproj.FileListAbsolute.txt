@@ -1,0 +1,5 @@
+c:\code\SaaS\Saas.Gateway.UrlRouter\bin\Debug\Saas.Gateway.UrlRouter.dll
+c:\code\SaaS\Saas.Gateway.UrlRouter\bin\Debug\Saas.Gateway.UrlRouter.pdb
+c:\code\SaaS\Saas.Gateway.UrlRouter\obj\Debug\Saas.Gateway.UrlRouter.dll
+c:\code\SaaS\Saas.Gateway.UrlRouter\obj\Debug\Saas.Gateway.UrlRouter.pdb
+c:\code\SaaS\Saas.Gateway.UrlRouter\obj\Debug\Saas.Gateway.UrlRouter.csprojResolveAssemblyReference.cache

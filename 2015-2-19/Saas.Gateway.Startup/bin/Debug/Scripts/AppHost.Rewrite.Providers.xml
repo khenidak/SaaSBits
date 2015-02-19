@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appcmd>
+    <CONFIG CONFIG.SECTION="system.webServer/rewrite/providers" path="MACHINE/WEBROOT/APPHOST" overrideMode="Inherit" locked="false">
+        <system.webServer-rewrite-providers>
+            <provider name="SaaSUrlExec" type="Saas.Gateway.UrlRouter.RouterExec, Saas.Gateway.UrlRouter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f94e44481a93f173">
+                <settings>
+                </settings>
+            </provider>
+        </system.webServer-rewrite-providers>
+    </CONFIG>
+</appcmd>

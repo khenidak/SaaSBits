@@ -1,0 +1,16 @@
+c:\code\SaaS\Saas.Gateway.Startup\bin\Debug\Scripts\AppHost.proxy.xml
+c:\code\SaaS\Saas.Gateway.Startup\bin\Debug\Scripts\AppHost.Rewrite.GlobalRules.xml
+c:\code\SaaS\Saas.Gateway.Startup\bin\Debug\Scripts\AppHost.Rewrite.outboundRules.xml
+c:\code\SaaS\Saas.Gateway.Startup\bin\Debug\Scripts\AppHost.Rewrite.Providers.xml
+c:\code\SaaS\Saas.Gateway.Startup\bin\Debug\Scripts\3.GacAssemblies.cmd
+c:\code\SaaS\Saas.Gateway.Startup\bin\Debug\Scripts\10.StartIIS.cmd
+c:\code\SaaS\Saas.Gateway.Startup\bin\Debug\Scripts\4.ConfigIIS.cmd
+c:\code\SaaS\Saas.Gateway.Startup\bin\Debug\Scripts\2.InstallARR.cmd
+c:\code\SaaS\Saas.Gateway.Startup\bin\Debug\Scripts\1.ShutdownIIS.cmd
+c:\code\SaaS\Saas.Gateway.Startup\bin\Debug\Saas.Gateway.Startup.dll
+c:\code\SaaS\Saas.Gateway.Startup\bin\Debug\Saas.Gateway.Startup.pdb
+c:\code\SaaS\Saas.Gateway.Startup\obj\Debug\Saas.Gateway.Startup.dll
+c:\code\SaaS\Saas.Gateway.Startup\obj\Debug\Saas.Gateway.Startup.pdb
+c:\code\SaaS\Saas.Gateway.Startup\bin\Debug\Scripts\InstallRouterGac.ps1
+c:\code\SaaS\Saas.Gateway.Startup\bin\Debug\Scripts\InstallArr.ps1
+c:\code\SaaS\Saas.Gateway.Startup\obj\Debug\Saas.Gateway.Startup.csprojResolveAssemblyReference.cache

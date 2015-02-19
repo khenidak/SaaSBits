@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appcmd>
+    <CONFIG CONFIG.SECTION="system.webServer/rewrite/outboundRules" path="MACHINE/WEBROOT/APPHOST" overrideMode="Inherit" locked="false">
+        <system.webServer-rewrite-outboundRules>
+            <customTags>
+            </customTags>
+            <preConditions>
+                <preCondition name="IsRedirection">
+                    <add input="{RESPONSE_STATUS}" pattern="3\d\d" />
+                </preCondition>
+            </preConditions>
+            <rule name="CopyPath" preCondition="IsRedirection" stopProcessing="true">
+                <match serverVariable="RESPONSE_Location" pattern="^http://[^/]+/(.*)" />
+                <conditions>
+                    <add input="{ORIGINAL_URL}" pattern=".+" />
+                    <add input="{URL}" pattern="^([^/]+)([^?]+)(.*)" />
+                </conditions>
+                <action type="Rewrite" value="http://{ORIGINAL_URL}/{C:2}/{R:1}" />
+            </rule>
+        </system.webServer-rewrite-outboundRules>
+    </CONFIG>
+</appcmd>

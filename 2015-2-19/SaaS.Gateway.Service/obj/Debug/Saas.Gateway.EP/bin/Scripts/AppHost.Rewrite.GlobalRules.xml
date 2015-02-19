@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appcmd>
+    <CONFIG CONFIG.SECTION="system.webServer/rewrite/globalRules" path="MACHINE/WEBROOT/APPHOST" overrideMode="Inherit" locked="false">
+        <system.webServer-rewrite-globalRules>
+            <rule name="ARR_server_proxy" enabled="true" patternSyntax="ECMAScript" stopProcessing="true">
+                <match url="^(.*)$" />
+                <conditions logicalGrouping="MatchAny" trackAllCaptures="true">
+                    <add input="{HTTP_xHEADER}" pattern="(.*)" />
+                </conditions>
+                <serverVariables>
+                </serverVariables>
+                <action type="Rewrite" url="{SaaSUrlExec:{C:0}[***]{R:0}}" appendQueryString="true" />
+            </rule>
+        </system.webServer-rewrite-globalRules>
+    </CONFIG>
+</appcmd>

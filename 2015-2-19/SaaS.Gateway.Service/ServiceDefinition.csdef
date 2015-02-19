@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition name="SaaS.Gateway.Service" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2014-06.2.4">
+  <WebRole name="Saas.Gateway.EP" vmsize="Small">
+    <Startup>
+      <Task commandLine=".\scripts\1.ShutdownIIS.cmd" executionContext="elevated" taskType="simple">
+        <Environment>
+          <Variable name="StartupLogs">
+            <RoleInstanceValue xpath="/RoleEnvironment/CurrentInstance/LocalResources/LocalResource[@name='StartupLogs']/@path" />
+          </Variable>
+        </Environment>
+      </Task>
+     
+      <Task commandLine=".\scripts\2.InstallArr.cmd" executionContext="elevated" taskType="simple">
+        <Environment>
+          <Variable name="StartupLogs">
+            <RoleInstanceValue xpath="/RoleEnvironment/CurrentInstance/LocalResources/LocalResource[@name='StartupLogs']/@path" />
+          </Variable>
+        </Environment>
+      </Task>
+      <Task commandLine=".\scripts\3.GacAssemblies.cmd" executionContext="elevated" taskType="simple">
+        <Environment>
+          <Variable name="StartupLogs">
+            <RoleInstanceValue xpath="/RoleEnvironment/CurrentInstance/LocalResources/LocalResource[@name='StartupLogs']/@path" />
+          </Variable>
+        </Environment>
+      </Task>
+      <Task commandLine=".\scripts\4.ConfigIIS.cmd" executionContext="elevated" taskType="simple">
+        <Environment>
+          <Variable name="StartupLogs">
+            <RoleInstanceValue xpath="/RoleEnvironment/CurrentInstance/LocalResources/LocalResource[@name='StartupLogs']/@path" />
+          </Variable>
+        </Environment>
+      </Task>
+    
+      <Task commandLine=".\scripts\10.StartIIS.cmd" executionContext="elevated" taskType="simple">
+        <Environment>
+          <Variable name="StartupLogs">
+            <RoleInstanceValue xpath="/RoleEnvironment/CurrentInstance/LocalResources/LocalResource[@name='StartupLogs']/@path" />
+          </Variable>
+        </Environment>
+      </Task>
+    </Startup>
+    <Sites>
+      <Site name="Web">
+        <Bindings>
+          <Binding name="Endpoint1" endpointName="Endpoint1" />
+        </Bindings>
+      </Site>
+    </Sites>
+    <Endpoints>
+      <InputEndpoint name="Endpoint1" protocol="http" port="80" />
+    </Endpoints>
+    <LocalResources>
+      <LocalStorage name="StartupLogs" cleanOnRoleRecycle="false" sizeInMB="10" />
+    </LocalResources>
+    <Imports>
+      <Import moduleName="RemoteAccess" />
+      <Import moduleName="RemoteForwarder" />
+    </Imports>
+  </WebRole>
+</ServiceDefinition>
