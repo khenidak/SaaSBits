@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appcmd>
+    <CONFIG CONFIG.SECTION="system.webServer/proxy" path="MACHINE/WEBROOT/APPHOST" overrideMode="Inherit" locked="false">
+        <system.webServer-proxy enabled="true" reverseRewriteHostInResponseHeaders="false">
+            <cache />
+        </system.webServer-proxy>
+    </CONFIG>
+</appcmd>

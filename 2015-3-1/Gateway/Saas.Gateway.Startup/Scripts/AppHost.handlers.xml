@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appcmd>
+    <CONFIG CONFIG.SECTION="system.webServer/handlers" path="MACHINE/WEBROOT/APPHOST" overrideMode="Allow" locked="false">
+        <system.webServer-handlers accessPolicy="Read, Script">
+            <add name="useASPNETAll32" path="*" verb="GET,HEAD,POST,DEBUG" type="" modules="IsapiModule" scriptProcessor="%windir%\Microsoft.NET\Framework\v4.0.30319\aspnet_isapi.dll" resourceType="Unspecified" requireAccess="Script" allowPathInfo="false" preCondition="integratedMode,runtimeVersionv4.0,bitness32" responseBufferLimit="0" />
+            <add name="useASPNETAll64" path="*" verb="GET,HEAD,POST,DEBUG" type="" modules="IsapiModule" scriptProcessor="%windir%\Microsoft.NET\Framework64\v4.0.30319\aspnet_isapi.dll" resourceType="Unspecified" requireAccess="Script" allowPathInfo="false" preCondition="integratedMode,runtimeVersionv4.0,bitness64" responseBufferLimit="0" />
+        </system.webServer-handlers>
+    </CONFIG>
+</appcmd>

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{7446680E-DBD5-4C87-827C-F1C2BCF63C79}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+		PublishScripts\WebSites.Pod.Replicator.ps1 = PublishScripts\WebSites.Pod.Replicator.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{B6EC8FCD-1B1A-4F70-8772-D116BB9036C6}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\SaaSWebAPI1-WAWS-dev.json = PublishScripts\Configurations\SaaSWebAPI1-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaaS.WebAPI", "SaaS.WebAPI\SaaS.WebAPI.csproj", "{2EFFBE35-14FF-427F-A702-30A0405D55BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EFFBE35-14FF-427F-A702-30A0405D55BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EFFBE35-14FF-427F-A702-30A0405D55BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EFFBE35-14FF-427F-A702-30A0405D55BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EFFBE35-14FF-427F-A702-30A0405D55BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6EC8FCD-1B1A-4F70-8772-D116BB9036C6} = {7446680E-DBD5-4C87-827C-F1C2BCF63C79}
+	EndGlobalSection
+EndGlobal

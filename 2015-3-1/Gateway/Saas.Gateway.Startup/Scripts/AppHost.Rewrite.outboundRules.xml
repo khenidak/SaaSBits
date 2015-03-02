@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appcmd>
+    <CONFIG CONFIG.SECTION="system.webServer/rewrite/outboundRules" path="MACHINE/WEBROOT/APPHOST" overrideMode="Inherit" locked="false">
+        <system.webServer-rewrite-outboundRules>
+            <customTags>
+            </customTags>
+            <preConditions>
+            </preConditions>
+        </system.webServer-rewrite-outboundRules>
+    </CONFIG>
+</appcmd>

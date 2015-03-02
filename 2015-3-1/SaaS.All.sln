@@ -1,0 +1,130 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{391FDEA1-6BB3-4F51-9577-A952A3E85DB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saas.Gateway.UrlRouter", "Gateway\Saas.Gateway.UrlRouter\Saas.Gateway.UrlRouter.csproj", "{61F963EB-7D7B-4125-9FEB-AFA91505E055}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saas.Gateway.Startup", "Gateway\Saas.Gateway.Startup\Saas.Gateway.Startup.csproj", "{931E7732-009F-4A09-AE5C-B530728EC205}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "SaaS.Gateway.Service", "Gateway\SaaS.Gateway.Service\SaaS.Gateway.Service.ccproj", "{E1C24E2B-9139-4EFE-9F77-835A152F7646}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saas.Gateway.HTTPModule", "Gateway\Saas.Gateway.HTTPModules\Saas.Gateway.HTTPModule.csproj", "{097BC526-40D4-468B-9759-5A8502553D9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Router.Harness", "Gateway\Saas.Gateway.Harness\Router.Harness.csproj", "{D2B97F62-C080-4EC2-B2CF-F717B826F461}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saas.Gateway.EP", "Gateway\Saas.Gateway.EP\Saas.Gateway.EP.csproj", "{5421AEC5-C6AA-4FE2-8ACD-E6C446429653}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SaaS.Keys", "SaaS.Keys", "{674C1439-42D0-40B5-AD0C-3BB2B16F2324}"
+	ProjectSection(SolutionItems) = preProject
+		Gateway\Saas.Gateway.UrlRouter\SaaS.Key.snk = Gateway\Saas.Gateway.UrlRouter\SaaS.Key.snk
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{4CABEF39-B434-474B-A90E-10673C376656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaaS.WebAPI", "Services\SaaS.WebAPI\SaaS.WebAPI.csproj", "{2EFFBE35-14FF-427F-A702-30A0405D55BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishingScripts", "PublishingScripts", "{A092A77A-CDAA-4A21-816D-1B962B50E85D}"
+	ProjectSection(SolutionItems) = preProject
+		Services\PublishScripts\PublishAll.ps1 = Services\PublishScripts\PublishAll.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SaaSHRApp", "SaaSHRApp", "{01CFD2EC-5B6D-43A0-9530-ABAC82895A51}"
+	ProjectSection(SolutionItems) = preProject
+		Services\PublishScripts\SaaSWebAPI\AzureWebsitePublishModule.psm1 = Services\PublishScripts\SaaSWebAPI\AzureWebsitePublishModule.psm1
+		Services\PublishScripts\SaaSHRApp\HRApp.Pod.Replicator.ps1 = Services\PublishScripts\SaaSHRApp\HRApp.Pod.Replicator.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SaaSWebAPI", "SaaSWebAPI", "{518F1667-A966-4225-BF11-6AE78A20C68A}"
+	ProjectSection(SolutionItems) = preProject
+		Services\PublishScripts\SaaSWebAPI\AzureWebsitePublishModule.psm1 = Services\PublishScripts\SaaSWebAPI\AzureWebsitePublishModule.psm1
+		Services\PublishScripts\SaaSWebAPI\WebSites.Pod.Replicator.ps1 = Services\PublishScripts\SaaSWebAPI\WebSites.Pod.Replicator.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{DDB519C7-E349-4027-ADDA-638D47588C92}"
+	ProjectSection(SolutionItems) = preProject
+		Services\PublishScripts\SaaSWebAPI\Configurations\SaaSWebAPI.Deploy.json = Services\PublishScripts\SaaSWebAPI\Configurations\SaaSWebAPI.Deploy.json
+		Services\PublishScripts\SaaSWebAPI\Configurations\SaaSWebAPI1-WAWS-dev.json = Services\PublishScripts\SaaSWebAPI\Configurations\SaaSWebAPI1-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{4DE03DC9-DDB7-4DE7-8662-ECC55DB99C09}"
+	ProjectSection(SolutionItems) = preProject
+		Services\PublishScripts\SaaSHRApp\Configurations\SaaSServicesHrApp-WAWS-dev.json = Services\PublishScripts\SaaSHRApp\Configurations\SaaSServicesHrApp-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaaS.Services.HrApp", "Services\SaaS.Services.HrApp\SaaS.Services.HrApp.csproj", "{98222AD9-24D5-4BF0-9B60-8E365DFDCDCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saas.Gateway.Router.Common", "Gateway\Saas.Gateway.Router.Common\Saas.Gateway.Router.Common.csproj", "{600D3D4D-842B-48DE-9D00-5DE72FB701BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saas.Gateway.Common", "Gateway\Saas.Gateway.Common\Saas.Gateway.Common.csproj", "{03F75413-9B85-4FA9-AFD6-B98724242E85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61F963EB-7D7B-4125-9FEB-AFA91505E055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F963EB-7D7B-4125-9FEB-AFA91505E055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61F963EB-7D7B-4125-9FEB-AFA91505E055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61F963EB-7D7B-4125-9FEB-AFA91505E055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{931E7732-009F-4A09-AE5C-B530728EC205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{931E7732-009F-4A09-AE5C-B530728EC205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{931E7732-009F-4A09-AE5C-B530728EC205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{931E7732-009F-4A09-AE5C-B530728EC205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1C24E2B-9139-4EFE-9F77-835A152F7646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1C24E2B-9139-4EFE-9F77-835A152F7646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1C24E2B-9139-4EFE-9F77-835A152F7646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1C24E2B-9139-4EFE-9F77-835A152F7646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{097BC526-40D4-468B-9759-5A8502553D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{097BC526-40D4-468B-9759-5A8502553D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{097BC526-40D4-468B-9759-5A8502553D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{097BC526-40D4-468B-9759-5A8502553D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2B97F62-C080-4EC2-B2CF-F717B826F461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B97F62-C080-4EC2-B2CF-F717B826F461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B97F62-C080-4EC2-B2CF-F717B826F461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B97F62-C080-4EC2-B2CF-F717B826F461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5421AEC5-C6AA-4FE2-8ACD-E6C446429653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5421AEC5-C6AA-4FE2-8ACD-E6C446429653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5421AEC5-C6AA-4FE2-8ACD-E6C446429653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5421AEC5-C6AA-4FE2-8ACD-E6C446429653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EFFBE35-14FF-427F-A702-30A0405D55BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EFFBE35-14FF-427F-A702-30A0405D55BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EFFBE35-14FF-427F-A702-30A0405D55BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EFFBE35-14FF-427F-A702-30A0405D55BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98222AD9-24D5-4BF0-9B60-8E365DFDCDCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98222AD9-24D5-4BF0-9B60-8E365DFDCDCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98222AD9-24D5-4BF0-9B60-8E365DFDCDCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98222AD9-24D5-4BF0-9B60-8E365DFDCDCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{600D3D4D-842B-48DE-9D00-5DE72FB701BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{600D3D4D-842B-48DE-9D00-5DE72FB701BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{600D3D4D-842B-48DE-9D00-5DE72FB701BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{600D3D4D-842B-48DE-9D00-5DE72FB701BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F75413-9B85-4FA9-AFD6-B98724242E85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F75413-9B85-4FA9-AFD6-B98724242E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F75413-9B85-4FA9-AFD6-B98724242E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F75413-9B85-4FA9-AFD6-B98724242E85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{61F963EB-7D7B-4125-9FEB-AFA91505E055} = {391FDEA1-6BB3-4F51-9577-A952A3E85DB7}
+		{931E7732-009F-4A09-AE5C-B530728EC205} = {391FDEA1-6BB3-4F51-9577-A952A3E85DB7}
+		{E1C24E2B-9139-4EFE-9F77-835A152F7646} = {391FDEA1-6BB3-4F51-9577-A952A3E85DB7}
+		{097BC526-40D4-468B-9759-5A8502553D9E} = {391FDEA1-6BB3-4F51-9577-A952A3E85DB7}
+		{D2B97F62-C080-4EC2-B2CF-F717B826F461} = {391FDEA1-6BB3-4F51-9577-A952A3E85DB7}
+		{5421AEC5-C6AA-4FE2-8ACD-E6C446429653} = {391FDEA1-6BB3-4F51-9577-A952A3E85DB7}
+		{2EFFBE35-14FF-427F-A702-30A0405D55BF} = {4CABEF39-B434-474B-A90E-10673C376656}
+		{A092A77A-CDAA-4A21-816D-1B962B50E85D} = {4CABEF39-B434-474B-A90E-10673C376656}
+		{01CFD2EC-5B6D-43A0-9530-ABAC82895A51} = {A092A77A-CDAA-4A21-816D-1B962B50E85D}
+		{518F1667-A966-4225-BF11-6AE78A20C68A} = {A092A77A-CDAA-4A21-816D-1B962B50E85D}
+		{DDB519C7-E349-4027-ADDA-638D47588C92} = {518F1667-A966-4225-BF11-6AE78A20C68A}
+		{4DE03DC9-DDB7-4DE7-8662-ECC55DB99C09} = {01CFD2EC-5B6D-43A0-9530-ABAC82895A51}
+		{98222AD9-24D5-4BF0-9B60-8E365DFDCDCD} = {4CABEF39-B434-474B-A90E-10673C376656}
+		{600D3D4D-842B-48DE-9D00-5DE72FB701BF} = {391FDEA1-6BB3-4F51-9577-A952A3E85DB7}
+		{03F75413-9B85-4FA9-AFD6-B98724242E85} = {391FDEA1-6BB3-4F51-9577-A952A3E85DB7}
+	EndGlobalSection
+EndGlobal
